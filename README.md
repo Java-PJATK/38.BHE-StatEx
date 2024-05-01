@@ -1,6 +1,8 @@
 # BHE-StatEx
 38 BHE-StatEx/StatExample.java 69  
 
+Cont. from [36.37.BGR-BasicClass](https://github.com/Java-PJATK/36.37.BGR-BasicClass)
+
 ## 8.5 Static members  
 
 Any class can also declare static members — both fields (data) and methods (but not static constructors!) We can imagine a static members as belonging the class as a whole, not to objects. As such, they can be used even if we haven’t created any object of our class — they are brought into existence and initialized when the class is loaded by the JVM (if the class happens to be an enum, after all the enum values have been created).
@@ -26,8 +28,6 @@ In the following example:
 ## Listing 38 BHE-StatEx/StatExample.java
 
 ```java
-// BHE-StatEx/StatExample.java
- 
 public class StatExample {
     private static double rate =  1;
     private static char     ID = 'A';
